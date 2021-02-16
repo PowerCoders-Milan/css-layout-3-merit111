@@ -1,1 +1,41 @@
 /* USE CSS GRID AND FLEX HERE */
+.flex {
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+html, body {
+    height: 100%;
+    flex: 1;
+
+}
+
+.Title {
+    background-color: royalblue;
+    color: rgb(36, 32, 32);
+    min-width: fit-content;
+    flex: 1;
+}
+
+.Header {
+    background-color: rgb(109, 118, 158);
+    color: rgb(15, 15, 15);
+    flex: 1;
+
+}
+
+.Feature-1 {
+    background-color: turquoise;
+     
+}
+
+
+.Feature-2 {
+    background-color: rgb(182, 154, 31);
+    
+    
+}
+
+.Feature-3 {
+    background-color: rgb(87, 121, 9);
+}
